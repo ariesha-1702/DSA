@@ -1,0 +1,1 @@
+{"name":"Local: 4-rotation string","url":"e:\\Competitive Programming\\450 DSA\\String\\4-rotation string.cpp","tests":[{"id":1610165481816,"input":"ababc \nabcab","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Competitive Programming\\450 DSA\\String\\4-rotation string.cpp","group":"local","local":true}
