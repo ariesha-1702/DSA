@@ -1,3 +1,4 @@
+// https://practice.geeksforgeeks.org/problems/bbt-counter4914/1
 #include <bits/stdc++.h>
 using namespace std;
 
