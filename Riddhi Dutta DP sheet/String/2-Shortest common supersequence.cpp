@@ -1,8 +1,10 @@
+// https://practice.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
+
 #include<bits/stdc++.h>
 using namespace std;
 class Solution {
 public:
-    int longestCommonSubsequence(string s1, string s2) {
+    int longestCommonSupersequence(string s1, string s2) {
         
         int n=s1.size();
         int m=s2.size();
