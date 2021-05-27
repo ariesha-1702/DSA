@@ -1,0 +1,1 @@
+{"name":"Local: 20-Subarray with 0 sum","url":"e:\\Competitive Programming\\450 DSA\\Array\\20-Subarray with 0 sum.cpp","tests":[{"id":1622096713537,"input":"1\n5\n1 2 -5 4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Competitive Programming\\450 DSA\\Array\\20-Subarray with 0 sum.cpp","group":"local","local":true}

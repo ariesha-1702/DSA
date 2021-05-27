@@ -1,4 +1,7 @@
 // https://leetcode.com/problems/maximum-product-subarray/submissions/
+
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     int maxProduct(vector<int>& v) {
