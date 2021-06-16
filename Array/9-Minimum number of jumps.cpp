@@ -1,6 +1,29 @@
 // https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1#
 
 
+class Solution{
+  public:
+    int minJumps(int arr[], int n){
+        int current_reach = 0;
+        int max_reach = 0;
+        int jumps = 0;
+        
+        for(int i=0;i<n;i++){
+            max_reach = max(max_reach, arr[i]+i);
+            if(i>current_reach) return -1;
+            if(i == n-1) break;
+            if(current_reach == i)
+                jumps++,
+                current_reach = max_reach;
+        }
+        
+        return jumps;
+    }
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 #include<bits/stdc++.h>
 using namespace std;
 class Solution{
